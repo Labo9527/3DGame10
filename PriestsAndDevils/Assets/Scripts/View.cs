@@ -64,14 +64,14 @@ public class View : MonoBehaviour
             {
                 ssd.Move();
             }
-            if (GUI.Button(new Rect(300, 100, 150, 50), "OFF_Left"))
+            if (GUI.Button(new Rect(300, 100, 150, 50), "OFF"))
             {
                 ssd.Offleft();
             }
-            if (GUI.Button(new Rect(500, 100, 150, 50), "OFF_Right"))
-            {
-                ssd.Offright();
-            }
+            // if (GUI.Button(new Rect(500, 100, 150, 50), "OFF_Right"))
+            // {
+            //     ssd.Offright();
+            // }
         }
         else if(ssd.state == State.RightToLeft)
         {
